@@ -153,7 +153,7 @@ checkCitizenship(citizen1);
 
 //EJ 4
 function createCitizen(name, lastName, age) {
-    if (name != "" && lastName != "" && age != null) {
+    if (name != "" && lastName != "" && age == Number) {
         let newCitizen = {newName: name, newLastName: lastName, newAge: age};
         return newCitizen;
     } else {
